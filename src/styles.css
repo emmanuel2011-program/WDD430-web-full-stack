@@ -1,0 +1,67 @@
+/* Form layout */
+.new-item-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 400px;
+  margin: 1rem auto;
+}
+
+/* Label and input */
+.new-item-form label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: bold;
+}
+
+.new-item-form input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+   background-color: #007bff;
+}
+
+/* Add button same length as input */
+.new-item-form .btn {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: #007bff; /* blue */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.new-item-form .btn:hover {
+  background-color: #0056b3;
+}
+
+/* Todo list header */
+.header {
+  text-align: center;
+  margin-top: 1rem;
+}
+/* Todo list */
+.list {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+
+/* Delete button with red background */
+.btn-danger {
+  background: red;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+}
+
+.btn-danger:hover {
+  background: darkred;
+}
